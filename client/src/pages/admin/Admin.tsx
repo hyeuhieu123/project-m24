@@ -1,13 +1,25 @@
-import React from "react";
-import "./admin.css";
-import Sidebar from "../../components/admin/sidebar/Sidebar";
-import Body from "../../components/admin/body/Body";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Sidebar from "../../components/Sidebar";
 
-export default function Admin() {
+import Dashboard from "../../components/Dashboard"; // Cần import Dashboard nếu nó được sử dụng ở đây
+import Order from "../../components/admin/Order";
+import Home from "../../components/admin/Home";
+
+const Admin = () => {
   return (
-    <div className="container">
-      <Sidebar></Sidebar>
-      <Body></Body>
-    </div>
+    <>
+      <Sidebar />
+      <Dashboard />
+      <div className="flex">
+        <div className="flex-1 p-10">
+          <Routes>
+            <Route path="/home1" element={<Home></Home>} />
+            <Route path="/home2" element={<Order></Order>} />
+          </Routes>
+        </div>
+      </div>
+    </>
   );
-}
+};
+
+export default Admin;
