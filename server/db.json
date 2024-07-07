@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "email": "admin@gmail.com",
+      "role": 1,
+      "status": 1
+    },
+    {
+      "username": "phamvan minh",
+      "email": "pvm@gmail.com",
+      "password": "$2a$10$UgN1bbJ8iFZPq1QHXEv37uRFJxjpXhsyY1jlRlquYH/D87AjhysZi",
+      "role": 0,
+      "status": 1,
+      "repassword": "$2a$10$UgN1bbJ8iFZPq1QHXEv37uRFJxjpXhsyY1jlRlquYH/D87AjhysZi",
+      "id": 4
+    },
+    {
+      "email": "haducluon@gmail.com",
+      "username": "haducluon",
+      "password": "$2a$10$jAdlw8Ejbwn.luzJIA5p7.rzlPnqHqLyY2tn8xorN33GXIKg.mBii",
+      "repassword": "$2a$10$jAdlw8Ejbwn.luzJIA5p7.rzlPnqHqLyY2tn8xorN33GXIKg.mBii",
+      "role": "user",
+      "status": 1,
+      "id": 5
+    },
+    {
+      "username": "a",
+      "email": "a@gmail.com",
+      "password": "$2a$10$R21KHdM8uDZfFsfiRZwQvOYErkK/CZNLVAqyw4kLmrmwzxHSpUHRi",
+      "role": 0,
+      "status": 1,
+      "repassword": "$2a$10$R21KHdM8uDZfFsfiRZwQvOYErkK/CZNLVAqyw4kLmrmwzxHSpUHRi",
+      "id": 10
+    },
+    {
+      "email": "haducluongdz@gmail.com",
+      "username": "haducluongdz",
+      "password": "$2a$10$wIMQragMYoXb51NnTr.VM.WYgaRUz.ddYmqnW0AEMmhEOYbfsI4oi",
+      "repassword": "$2a$10$wIMQragMYoXb51NnTr.VM.WYgaRUz.ddYmqnW0AEMmhEOYbfsI4oi",
+      "role": "user",
+      "status": 1,
+      "id": 11
+    },
+    {
+      "email": "a3@gmail.com",
+      "username": "anha333",
+      "password": "$2a$10$YqMEi6ws4IRttKvSZFTt6.B5bRlb3LXb2FGcjJ/KxnzNwFMSZzHBK",
+      "repassword": "$2a$10$YqMEi6ws4IRttKvSZFTt6.B5bRlb3LXb2FGcjJ/KxnzNwFMSZzHBK",
+      "role": "user",
+      "status": 1,
+      "id": 12
+    },
+    {
+      "username": "pminh",
+      "email": "pminh@gmail.com",
+      "password": "$2a$10$goH30qI8pBpbP0DgbhJQ6OWEMLKsea4ro3X08TdbvcXiPE4jYp.vu",
+      "role": 0,
+      "status": 1,
+      "repassword": "$2a$10$goH30qI8pBpbP0DgbhJQ6OWEMLKsea4ro3X08TdbvcXiPE4jYp.vu",
+      "id": 13
+    },
+    {
+      "username": "vminh",
+      "email": "vminh@gmail.com",
+      "password": "$2a$10$Roa93kCVpLW6gjKoSRKpXu85zkBOfjmPt96BYrkNw7/tLlwSYMoT.",
+      "role": 0,
+      "status": 1,
+      "repassword": "$2a$10$Roa93kCVpLW6gjKoSRKpXu85zkBOfjmPt96BYrkNw7/tLlwSYMoT.",
+      "id": 14
+    }
+  ],
+  "courses": [
+    {
+      "id": 15,
+      "title": "Khóa luyện thi đại học",
+      "description": "Khóa luyện thi cho học sinh chuẩn bị thi đại học"
+    },
+    {
+      "id": 15,
+      "title": "Khóa luyện thi THPT",
+      "description": "Khóa luyện thi dành cho học sinh lớp 10,11,12"
+    }
+  ],
+  "examSubject": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "Môn Toán",
+      "description": "Luyện thi đại học môn Toán học"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "title": "Vật lí lớp 11",
+      "description": "Luyện thi Vật lí lớp 11"
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "title": "Hóa học",
+      "description": "Luyện thi Hóa học lớp 10"
+    }
+  ],
+  "test": [
+    {
+      "id": 1,
+      "lesson_id": "20",
+      "title": "toán",
+      "description": "Đề thi toán học THPT Chuyên Hùng Vương",
+      "duration": 90,
+      "examSubjectId": 1
+    },
+    {
+      "id": 2,
+      "lesson_id": "20",
+      "title": "Đề thi Vật lí cơ bản lớp 11",
+      "description": "Đề thi gồm các câu hỏi cơ bản về vật lí lớp 11",
+      "duration": 60,
+      "examSubjectId": 2
+    },
+    {
+      "id": 3,
+      "lesson_id": "20",
+      "title": "Đề thi hóa học cơ bản lớp 10",
+      "description": "Đề thi gồm các câu hỏi cơ bản về hóa học lớp 10",
+      "duration": "",
+      "examSubjectId": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "questions": "phương trình có nghiệm x=?",
+      "answer": "1",
+      "examId": 1,
+      "option": ["0", "1", "2", "3"]
+    },
+    {
+      "id": 2,
+      "questions": "Định lí pytago áp dụng cho tam giác nào",
+      "answer": "tam giác vuông",
+      "examId": 2,
+      "option": [
+        "Tam giác vuông",
+        "Tam giác đều",
+        "Tam giác cân",
+        "Tam giác đều"
+      ]
+    }
+  ],
+  "userAnswer": [
+    {
+      "id": 1,
+      "userId": 1,
+      "examId": 1,
+      "score": 15
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "examId": 2,
+      "score": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "lesson_id": 1,
+      "content": "Rất tuyệt vời"
+    }
+  ]
+}
