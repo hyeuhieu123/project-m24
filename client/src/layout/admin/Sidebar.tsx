@@ -17,6 +17,7 @@ export default function Sidebar() {
       >
         Category Management
       </Link>
+      <Link to="/login"> log out</Link>
     </div>
   );
 }
