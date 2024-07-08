@@ -14,6 +14,7 @@ export default function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/admin" element={<IndexAdmin />}>
         <Route index element={<Dashboard />} />
+        <Route path="dashboard" element={<Dashboard></Dashboard>}></Route>
         <Route path="user" element={<UserManage />} />
         <Route path="category" element={<CategoryManage />} />
       </Route>
