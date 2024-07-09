@@ -88,7 +88,7 @@ export default function Login() {
 
           if (passwordMatch) {
             console.log("Đăng nhập thành công:", user);
-            navigate("/admin");
+            navigate("/user");
           } else {
             setErrorMessage(
               "Mật khẩu không đúng. Vui lòng kiểm tra lại thông tin."
@@ -110,10 +110,10 @@ export default function Login() {
 
   return (
     <div>
-      <section className="flex flex-col items-center pt-6">
-        <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+      <section className="flex flex-col items-center pt-6 ">
+        <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-            <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+            <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">
               Đăng nhập
             </h1>
             <form
@@ -124,7 +124,7 @@ export default function Login() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900"
                 >
                   Email
                 </label>
@@ -134,8 +134,7 @@ export default function Login() {
                   id="email"
                   className={`bg-gray-50 border ${
                     errors.email ? "border-red-500" : "border-gray-300"
-                  } text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500`}
-                  placeholder="example@example.com"
+                  } text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500`}
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -146,7 +145,7 @@ export default function Login() {
               <div>
                 <label
                   htmlFor="password"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                  className="block mb-2 text-sm font-medium text-gray-900 "
                 >
                   Password
                 </label>
@@ -154,10 +153,9 @@ export default function Login() {
                   type="password"
                   name="password"
                   id="password"
-                  placeholder="••••••••"
                   className={`bg-gray-50 border ${
                     errors.password ? "border-red-500" : "border-gray-300"
-                  } text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500`}
+                  } text-gray-900 sm:text-sm rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5  dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500`}
                   value={formData.password}
                   onChange={handleChangePassword}
                 />

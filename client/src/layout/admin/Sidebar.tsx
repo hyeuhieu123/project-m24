@@ -30,7 +30,7 @@ export default function Sidebar() {
             </Link>
           </div>
         </div>
-        <Link to="/login"> log out</Link>
+        <> log out</>
       </div>
     </div>
   );

@@ -16,6 +16,24 @@
       "role": "user",
       "status": 1,
       "id": 2
+    },
+    {
+      "email": "1@gmail.com",
+      "username": "1234567",
+      "password": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
+      "repassword": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
+      "role": "user",
+      "status": 1,
+      "id": 3
+    },
+    {
+      "email": "12@gmail.com",
+      "username": "1234567",
+      "password": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
+      "repassword": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
+      "role": "user",
+      "status": 1,
+      "id": 4
     }
   ],
   "courses": [
@@ -82,12 +100,7 @@
       "questions": "phương trình có nghiệm x=?",
       "answer": "1",
       "examId": 1,
-      "option": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ]
+      "option": ["0", "1", "2", "3"]
     },
     {
       "id": 2,
