@@ -1,140 +1,71 @@
 {
   "users": [
     {
-      "id": 1,
-      "username": "admin",
-      "password": "123",
-      "email": "admin@gmail.com",
-      "role": 1,
-      "status": 1
-    },
-    {
-      "email": "hieu123@gmail.com",
-      "username": "hieu123",
-      "password": "$2a$10$hK9gKxPgK/QSPs8yddPB/egvwuqWze51efrXJW0u0FWkjWLJ/ockm",
-      "repassword": "$2a$10$hK9gKxPgK/QSPs8yddPB/egvwuqWze51efrXJW0u0FWkjWLJ/ockm",
-      "role": "user",
-      "status": 1,
+      "name": "hieu",
+      "email": "12345@gmail.com",
+      "profilePicture": "https://static.vecteezy.com/system/resources/previews/009/734/564/original/default-avatar-profile-icon-of-social-media-user-vector.jpg",
+      "role": 0,
+      "status": true,
+      "password": "12345678",
       "id": 2
     },
     {
-      "email": "1@gmail.com",
-      "username": "1234567",
-      "password": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
-      "repassword": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
-      "role": "user",
-      "status": 1,
+      "name": "123",
+      "email": "3@gmail.com",
+      "password": "12345678",
+      "profilePicture": "https://static.vecteezy.com/system/resources/previews/009/734/564/original/default-avatar-profile-icon-of-social-media-user-vector.jpg",
+      "role": 0,
+      "status": true,
       "id": 3
-    },
-    {
-      "email": "12@gmail.com",
-      "username": "1234567",
-      "password": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
-      "repassword": "$2a$10$MfiFoAOtPpUaM42vxgarAOkWahlB9NF8iDOE2xahEQK3kwOCoMigu",
-      "role": "user",
-      "status": 1,
-      "id": 4
     }
   ],
   "courses": [
     {
-      "id": 15,
-      "title": "Khóa luyện thi đại học",
-      "description": "Khóa luyện thi cho học sinh chuẩn bị thi đại học"
-    },
-    {
-      "id": 15,
-      "title": "Khóa luyện thi THPT",
-      "description": "Khóa luyện thi dành cho học sinh lớp 10,11,12"
+      "title": "Khóa luyện thi 12",
+      "description": "lớp 12",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-df4f0.appspot.com/o/12%20(1).jpg?alt=media&token=8f0c559f-6aa4-4316-ab5b-8a6634e8e67d",
+      "id": 1
     }
   ],
-  "examSubject": [
+  "examSubjects": [
     {
-      "id": 1,
-      "courseId": 1,
-      "title": "Môn Toán",
-      "description": "Luyện thi đại học môn Toán học"
-    },
-    {
-      "id": 2,
-      "courseId": 2,
-      "title": "Vật lí lớp 11",
-      "description": "Luyện thi Vật lí lớp 11"
-    },
-    {
-      "id": 2,
-      "courseId": 2,
-      "title": "Hóa học",
-      "description": "Luyện thi Hóa học lớp 10"
-    }
-  ],
-  "test": [
-    {
-      "id": 1,
-      "lesson_id": "20",
       "title": "toán",
-      "description": "Đề thi toán học THPT Chuyên Hùng Vương",
+      "description": "đại số\n",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-df4f0.appspot.com/o/20.jpg?alt=media&token=a41bd001-b347-4d45-876e-b408f734a36a",
+      "courseId": 1,
+      "id": 1
+    },
+    {
+      "title": "toán",
+      "description": "hình",
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-df4f0.appspot.com/o/20.jpg?alt=media&token=a41bd001-b347-4d45-876e-b408f734a36a",
+      "courseId": 1,
+      "id": 2
+    }
+  ],
+  "exams": [
+    {
+      "title": "toán đại",
+      "description": "đại cương",
       "duration": 90,
-      "examSubjectId": 1
-    },
-    {
-      "id": 2,
-      "lesson_id": "20",
-      "title": "Đề thi Vật lí cơ bản lớp 11",
-      "description": "Đề thi gồm các câu hỏi cơ bản về vật lí lớp 11",
-      "duration": 60,
-      "examSubjectId": 2
-    },
-    {
-      "id": 3,
-      "lesson_id": "20",
-      "title": "Đề thi hóa học cơ bản lớp 10",
-      "description": "Đề thi gồm các câu hỏi cơ bản về hóa học lớp 10",
-      "duration": "",
-      "examSubjectId": 3
+      "image": "https://firebasestorage.googleapis.com/v0/b/project-df4f0.appspot.com/o/29.jpg?alt=media&token=07ec6572-9c97-41e7-bfee-e5c229a98f16",
+      "examSubjectId": 1,
+      "id": 1
     }
   ],
   "questions": [
     {
       "id": 1,
-      "questions": "phương trình có nghiệm x=?",
-      "answer": "1",
+      "question": "nghiệm pt ",
       "examId": 1,
-      "option": ["0", "1", "2", "3"]
-    },
-    {
-      "id": 2,
-      "questions": "Định lí pytago áp dụng cho tam giác nào",
-      "answer": "tam giác vuông",
-      "examId": 2,
-      "option": [
-        "Tam giác vuông",
-        "Tam giác đều",
-        "Tam giác cân",
-        "Tam giác đều"
-      ]
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
     }
   ],
-  "userAnswer": [
-    {
-      "id": 1,
-      "userId": 1,
-      "examId": 1,
-      "score": 15
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "examId": 2,
-      "score": 8
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "user_id": 1,
-      "lesson_id": 1,
-      "content": "Rất tuyệt vời"
-    }
-  ]
+  "userAnswers": []
 }
